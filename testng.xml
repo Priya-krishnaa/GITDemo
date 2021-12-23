@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite"  thread-count="10" parallel="none" >
-<listeners> <listener class-name= "RahulAcademyTestCases.Listeners"/>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="10" parallel="none" >
+<listeners>
+		<listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+		<listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
 </listeners>
-
-  <test thread-count="5" name="Test" >
-    <classes>
-      <class name="RahulAcademyTestCases.IndexPageTextVerify"/>
-      <class name="RahulAcademyTestCases.ConsultingPageTitle"/>
-      <class name="RahulAcademyTestCases.LoginPage"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome" />
+  <classes>
+	<!-- 	 <class name="com.kirusa.dir.test.scripts.RCSBotUITestCases"/>  -->
+	<!--<class name="com.kirusa.dir.test.scripts.RCSBotUITestCasesValidate"/>-->
+	 <!--    <class name="com.kirusa.dir.test.scripts.RCSBotHomePageCasesWithoutSignin"/>    -->
+	<!--  <class name= "com.kirusa.dir.test.scripts.RCSBotHomePageCasesAfterSignin"/>    -->
+	
+	<!--  <class name="com.kirusa.dir.test.scripts.RCSBotFooterSectionCasesWithoutSignin"/>    -->
+	<class name="com.kirusa.dir.test.scripts.RCSBotFooterSectionCasesAfterSignin"/>
+		</classes>
+  </test>      <!-- Test -->
+   
+</suite>
