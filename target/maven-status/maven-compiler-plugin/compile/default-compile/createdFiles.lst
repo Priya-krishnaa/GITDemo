@@ -1,0 +1,6 @@
+RahulAcademyPageObjects\ConsultingPageObjects.class
+RahulAcademyPageObjects\LoginPageObjects.class
+RahulAcademyPageObjects\IndexPageObjects.class
+RahulAcademyPageObjects\HomePageObjects.class
+resources\base.class
+resources\ExtentReporterNG.class

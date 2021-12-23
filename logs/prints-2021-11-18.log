@@ -1,0 +1,7 @@
+20:14:51.009 [TestNG-test=Test-1] ERROR resources.base - Error msg of consultingurl
+20:14:54.529 [TestNG-test=Test-2] ERROR resources.base - Error msg of textverify
+20:15:05.914 [TestNG-test=Test-3] ERROR resources.base - Error msg of loginpage
+20:15:27.949 [TestNG-test=Test-3] ERROR resources.base - Error msg of loginpage
+20:16:56.629 [TestNG-test=Test-1] ERROR resources.base - Error msg of consultingurl
+20:16:57.340 [TestNG-test=Test-2] ERROR resources.base - Error msg of textverify
+20:17:09.692 [TestNG-test=Test-3] ERROR resources.base - Error msg of loginpage
