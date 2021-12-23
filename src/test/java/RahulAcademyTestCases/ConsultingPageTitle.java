@@ -12,7 +12,7 @@ public class ConsultingPageTitle extends base{
 	
 	@Test
 	public void consultingTitle() throws IOException {
-
+    
 		System.out.println("Entered into Consulting page test case");
 		indexpage.consulting().click();
 		String title=driver.getTitle();
@@ -26,7 +26,7 @@ public class ConsultingPageTitle extends base{
 		log.debug("Debug msg of consultingurl");
 		log.error("Error msg of consultingurl");
 		
-	
+	// Adding a comment 
 			sa.assertAll();
 		
 	}
