@@ -25,9 +25,13 @@ public class ConsultingPageTitle extends base{
 		log.info("consultingurl info msg");
 		log.debug("Debug msg of consultingurl");
 		log.error("Error msg of consultingurl");
+		System.out.println("Develop branch 1");
+		System.out.println("Develop branch 2");
+		System.out.println("Develop branch 3");
 		
 	// Adding a comment 
 			sa.assertAll();
+			
 		
 	}
 	
